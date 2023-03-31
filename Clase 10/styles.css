@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body{
+    background-image: url(img/ondas.svg);
+    background-color: #22193F;
+}
+h2{
+    color: white;
+    position: absolute;
+    margin: 150px;
+    font-size: 50px;
+}
+.imagen-login{
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contenedor{
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 400px;    
+}
+.form-group{
+    padding-top: 70px;
+    padding-left: 10px; 
+    font-size: 16px;
+} 
+a button{
+    font-family: "Nunito" sans-serif;
+    font-weight: bold;
+}
+input{
+    height:  40px;
+    width: 100px;
+}
+.menu{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    padding: 0px;
+    background-color: rgb(253, 253, 253);
+}
+.h1{
+    font-size: 28px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.email-form{
+    font-size: 16px;
+    width: 350px;
+    
+    border-radius: 22px;
+    font-family: 'Nunito Regular';
+}
+.password-form{
+    width: 350px;
+    margin-top: 20px;
+    
+    border-radius: 22px;
+    font-family: 'Nunito Regular';
+}
+.recovery-password{
+    justify-content: end;
+    text-align: end; 
+    margin: 0px;
+    font-family: 'Nunito Bold';
+}
+/* .p-sesion{      
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0px; 
+    width: 300px;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: rgb(139, 0, 139);
+}
+.a-sesion{
+    color: rgb(1, 1, 1);
+    font-family: 'Nunito Bold';
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+.a-password{
+    margin: 0px;
+    margin-right: 20px;
+    width: 16px;
+    color:rgb(251, 1, 76);
+    text-decoration: underline;
+}
+.a-password:hover{
+    color:rgb(254, 0, 0); 
+}
+.p-inicio{
+    background-color: rgb(245, 11, 97);
+    margin: auto;
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+   
+    border-radius: 22px;
+    text-align: center;
+}   
+
+.p-inicio:hover{
+    background-color: rgb(250, 0, 42);;
+}
+.iniciar-sesion{   
+    color: white;
+    text-decoration: none;
+}
