@@ -31,6 +31,7 @@ h2{
     padding-top: 70px;
     padding-left: 10px; 
     font-size: 16px;
+    
 } 
 
 input{
@@ -45,6 +46,7 @@ input{
     display: inline-block;
     padding: 0px;
     background-color: rgb(253, 253, 253);
+
 }
 .h1{
     font-size: 28px;
@@ -56,11 +58,6 @@ input{
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
-    
-    
-    
-    
-    
 }
 .email-form{
     font-size: 16px;
@@ -70,8 +67,7 @@ input{
 }
 .password-form{
     width: 350px;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
     border-radius: 22px;
     font-family: 'Nunito Regular';
 }
@@ -107,11 +103,13 @@ input{
 }   
 
 .p-inicio:hover{
-    background-color: rgb(250, 0, 42);;
+    background-color: rgb(250, 0, 42);
+    text-transform:capitalize;
 }
 .iniciar-sesion{   
     color: white;
     text-decoration: none;
     font-family: 'Nunito',sans-serif;
     font-weight: bold;
+    
 }
