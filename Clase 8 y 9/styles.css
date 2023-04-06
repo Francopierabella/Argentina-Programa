@@ -104,7 +104,6 @@ input{
 
 .p-inicio:hover{
     background-color: rgb(250, 0, 42);
-    text-transform:capitalize;
 }
 .iniciar-sesion{   
     color: white;

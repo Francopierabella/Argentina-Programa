@@ -63,7 +63,19 @@ function arrayEjercicio2Mas1 (){
 arrayEjercicio2Mas1()
 
 // F-------------------------------
-//calcular el promedio...
+//calcular el promedio
+console.log("Calculo el promedio")
+
+function calcularPromedio (){
+    let cantidad = arrayEjercicio2.length
+    let aux = (accumulator,currentValue) => accumulator + currentValue
+    let sumaDeElementos = arrayEjercicio2.reduce(aux)
+    let promedio = sumaDeElementos / cantidad
+    console.log(promedio)
+}
+calcularPromedio()
+
+
 //-----------------------------------------------------------------------------------
 /* 
 EJERCICIO 3:
@@ -150,15 +162,17 @@ function elementosEnMayusculas (){
 }
 elementosEnMayusculas()
 //G-------------------------------------------------------------
+console.log("Alungo empiezan con J?")
 function comienzaAlgunoConJ(){
     for (let i = 0; i < arrayEjercicio5.length; i++) {
         const element = arrayEjercicio5[i];
         var comienzaCon = element.charAt(0)
         if(comienzaCon == "J"){
             console.log(true)
-    }
+        }
     else console.log(false)
     }
+    
 }
 comienzaAlgunoConJ()
 //-----------------------------------------------------
