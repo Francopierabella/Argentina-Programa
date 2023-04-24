@@ -3,6 +3,7 @@ EJERCICIO 1:
 1. Genera un array de números aleatorios, ordenarlos y mostrarlo en una lista desordenada.
 (Con lista desordenada se refiere al elemento HTML, pero deben mostrarlos
 ORDENADOS en un elemento UL en el HTML, como el ejercicio final del TP5)
+
 */
 
 //-----------------------------------------------------------------------
@@ -166,7 +167,7 @@ console.log("Alungo empiezan con J?")
 function comienzaAlgunoConJ(){
     for (let i = 0; i < arrayEjercicio5.length; i++) {
         const element = arrayEjercicio5[i];
-        var comienzaCon = element.charAt(0)
+        let comienzaCon = element.charAt(0)
         if(comienzaCon == "J"){
             console.log(true)
         }
